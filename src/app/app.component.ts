@@ -7,5 +7,6 @@ import {RecipesComponent} from './recipes/recipes.component';
   templateUrl: './app.component.html'
 })
 export class AppComponent {
+  log: any = window.console.log();
 
 }
